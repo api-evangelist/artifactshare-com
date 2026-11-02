@@ -1,4 +1,4 @@
-# artifactshare-com
+# Artifact Share
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-artifactshare-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://artifactshare.com/
+Artifact Share is a service for safely sharing AI‑generated HTML and Markdown within organizations. It lets users create browser‑link artifacts via a web UI or CLI, integrating with AI models such as Codex, Claude, ChatGPT, and Cursor, and supports remote MCP access.
+
+**Areas:** File Sharing · HTML · Markdown · AI Integration · Developer Tools
+
+## Artifact Share on APIs.io
+
+Everything profiled for Artifact Share is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/artifactshare-com/](https://apis.io/providers/artifactshare-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Artifact Share Cli API](https://apis.io/apis/artifactshare-com/artifactshare-com-cli-api/) — The Cli API from Artifact Share — 4 operation(s) for cli.
+- [Artifact Share MCP API](https://apis.io/apis/artifactshare-com/artifactshare-com-mcp-api/) — The Mcp API from Artifact Share — 1 operation(s) for mcp.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Artifactshare Com Agentic Access](https://apis.io/agentic-access/artifactshare-com/artifactshare-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ArtifactReadResponse](https://apis.io/schemas/artifactshare-com/artifactshare-com-artifact-read-response/)
+- [CliEditRequest](https://apis.io/schemas/artifactshare-com/artifactshare-com-cli-edit-request/)
+- [CliEditResponse](https://apis.io/schemas/artifactshare-com/artifactshare-com-cli-edit-response/)
+- [CommentsListResponse](https://apis.io/schemas/artifactshare-com/artifactshare-com-comments-list-response/)
+- [PublisherAdoptResponse](https://apis.io/schemas/artifactshare-com/artifactshare-com-publisher-adopt-response/)
+- [PublisherRetentionRequest](https://apis.io/schemas/artifactshare-com/artifactshare-com-publisher-retention-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Artifactshare Com Context](https://apis.io/jsonld/artifactshare-com/artifactshare-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Artifact Share API Rules](https://apis.io/rules/artifactshare-com/artifactshare-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Artifactshare Com Authentication](https://apis.io/security/artifactshare-com/artifactshare-com-authentication/)
+- [Artifactshare Com Domain Security](https://apis.io/security/artifactshare-com/artifactshare-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Artifactshare Com Scopes](https://apis.io/scopes/artifactshare-com/artifactshare-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Artifactshare Com Plans Pricing](https://apis.io/plans/artifactshare-com/artifactshare-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Artifactshare Com Rate Limits](https://apis.io/rate-limits/artifactshare-com/artifactshare-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://artifactshare.com/)
+- [Documentation](https://artifactshare.com/guides/cli)
+- [Getting started](https://artifactshare.com/about)
+- [API reference](https://artifactshare.com/openapi.json)
+- [Pricing](https://artifactshare.com/pricing)
+- [Terms of service](https://artifactshare.com/terms)
+- [Privacy policy](https://artifactshare.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 58.6** — strong · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 60.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 73.2 |
+
+**Agent readiness 51.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/artifactshare-com/](https://apis.io/providers/artifactshare-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Artifact Share: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/artifactshare-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
